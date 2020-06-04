@@ -1,0 +1,6 @@
+{
+  "name": "Black bottom bar",
+  "description": "A black bottom bar widget, consists of 2 widgets. One displaying the time & date and the other displaying the battery percentage and charging status if charging.",
+  "author": "Hanne Maes",
+  "email": "maes.hanne@gmail.com"
+}
