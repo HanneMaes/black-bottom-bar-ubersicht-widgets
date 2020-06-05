@@ -1,6 +1,6 @@
 {
-  "name": "Black bottom bar",
-  "description": "A black bottom bar widget, consists of 2 widgets. One displaying the time & date and the other displaying the battery percentage and charging status if charging.",
+  "name": "Google Search Shortcuts",
+  "description": "Adds shortcuts to the Google Search results.",
   "author": "Hanne Maes",
   "email": "maes.hanne@gmail.com"
 }
