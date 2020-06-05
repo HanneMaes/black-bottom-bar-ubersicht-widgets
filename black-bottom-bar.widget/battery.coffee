@@ -15,10 +15,8 @@ refreshFrequency: 500 # every half second
 # render gets called after the shell command has executed. The command's output
 # is passed in as a string. Whatever it returns will get rendered as HTML.
 render: -> """
-  <p id="addGradienHere">
-    <span id='charging' class='green'></span>
-    <span id='battery'></span>
-  </p>
+  <span id='charging' class='green'></span>
+  <span id='battery'></span>
 """
 
 update: (output, domEl) ->
@@ -49,10 +47,11 @@ update: (output, domEl) ->
 
   # manage glows
   percentInt = parseInt(percent, 10)
+  
   if percentInt <= 10
-    $('#black-bottom-bar-widgets-black-bottom-bar-widget-battery-coffee').css('box-shadow', 'inset -110px 0 70px -50px rgba(255, 0, 0,' + percentInt/10 + ')')
+    $('#black-bottom-bar-widgets-black-bottom-bar-widget-battery-coffee').css('box-shadow', 'inset -110px 0 70px -50px rgba(255, 0, 0,' + (1 - (percentInt/10)) + ')')
   else if percentInt >= 90
-    $('#black-bottom-bar-widgets-black-bottom-bar-widget-battery-coffee').css('box-shadow', 'inset -110px 0 70px -50px rgba(0, 255, 186,' + percentInt/10 + ')')
+    $('#black-bottom-bar-widgets-black-bottom-bar-widget-battery-coffee').css('box-shadow', 'inset -110px 0 70px -50px rgba(0, 255, 186,' + (1 - ((100 - percentInt) / 10)) + ')')
 
 #################################
 # CSS
