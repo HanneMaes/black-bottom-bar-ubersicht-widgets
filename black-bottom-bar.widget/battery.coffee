@@ -47,7 +47,7 @@ update: (output, domEl) ->
 
   # manage glows
   percentInt = parseInt(percent, 10)
-  
+
   if percentInt <= 10
     $('#black-bottom-bar-widgets-black-bottom-bar-widget-battery-coffee').css('box-shadow', 'inset -110px 0 70px -50px rgba(255, 0, 0,' + (1 - (percentInt/10)) + ')')
   else if percentInt >= 90
