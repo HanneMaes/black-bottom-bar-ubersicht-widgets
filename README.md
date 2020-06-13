@@ -2,7 +2,7 @@
 <img src="screenrecording.gif">
 
 <br><br>
-I made an animation notify the users on low and high battery levels.
+I made an animation to notify the user on low and high battery levels.
 <br>
 <img src="battery-animation.gif">
 
