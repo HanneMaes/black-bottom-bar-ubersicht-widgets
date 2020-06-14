@@ -65,7 +65,7 @@ style: """
   .date
     padding-left: 10px
     font-size: 1em
-    opacity: 0.3
+    opacity: 0.4
     &:hover
       opacity: 1
 """
