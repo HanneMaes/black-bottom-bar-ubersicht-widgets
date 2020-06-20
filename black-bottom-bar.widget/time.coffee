@@ -28,6 +28,10 @@ update: (output, domEl) ->
   time = values[0]
   date = values[1] + ' ' + values[2] + ' ' + values[3] + ' ' + values[4]
 
+  # # translate to french
+  # date = date.split("Monday").join("Lundi").split("Tuesday").join("Mardi").split("Wednesday").join("Mercredi").split("Thursday").join("Jeudi").split("Friday").join("Vendredi").split("Saturday").join("Samedi").split("Sunday").join("Dimanche")
+  # date = date.split("Jan").join("janvier").split("Feb").join("février").split("Mar").join("mars").split("Apr").join("avril").split("May").join("mai").split("Jun").join("juin").split("Jul").join("juillet").split("Aug").join("août").split("Sept").join("septembre").split("Oct").join("octobre").split("Nov").join("novembre").split("Dec").join("décembre")
+
   # update HTML elements
   div = $(domEl)
   div.find('.time').html(time) 
