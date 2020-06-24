@@ -13,3 +13,5 @@ The middle part is the Mac dock scaled to match the size of the widgets and made
 # English & French version
 - 🇬🇧 🇺🇸 For English use time-EN.coffee
 - 🇫🇷 For French use time-FR.coffee
+
+<img src="languages.png">
