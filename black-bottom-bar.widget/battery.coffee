@@ -62,7 +62,7 @@ update: (output, domEl) ->
 style: """
   // background
   box-sizing: border-box
-  background-color: rgb(0, 0, 0)
+  background-color: rgba(0, 0, 0, 0.8)
 
   // position
   right: 0%
