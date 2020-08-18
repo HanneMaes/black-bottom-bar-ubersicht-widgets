@@ -67,7 +67,7 @@ style: """
   // position
   right: 0%
   bottom: 0%
-  width: 45px // same as in volume.coffee
+  width: 42px // same as in volume.coffee
   height: 36px
 
   // typography

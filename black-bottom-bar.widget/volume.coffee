@@ -44,9 +44,9 @@ style: """
   background-color: rgb(0, 0, 0)
 
   // position
-  right: 45px // same as battery.coffee width
+  right: 42px // same as battery.coffee width
   bottom: 0%
-  width: calc(50% - 45px) // same as battery.coffee width
+  width: calc(50% - 42px) // same as battery.coffee width
   height: 36px
 
   // typography
