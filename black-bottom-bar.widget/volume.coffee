@@ -41,12 +41,12 @@ update: (output, domEl) ->
 style: """
   // background
   box-sizing: border-box
-  background-color: rgb(0, 0, 0)
+  background-color: rgba(0, 0, 0, 0)
 
   // position
-  right: 42px // same as battery.coffee width
+  right: 42px
   bottom: 0%
-  width: calc(50% - 42px) // same as battery.coffee width
+  width: calc(50% - 42px)
   height: 36px
 
   // typography
